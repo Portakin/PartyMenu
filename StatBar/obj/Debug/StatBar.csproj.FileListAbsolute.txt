@@ -1,0 +1,10 @@
+C:\Users\Generation\source\repos\CharacterQuestMenu\StatBar\bin\Debug\StatBar.dll
+C:\Users\Generation\source\repos\CharacterQuestMenu\StatBar\bin\Debug\StatBar.pdb
+C:\Users\Generation\source\repos\CharacterQuestMenu\StatBar\obj\Debug\StatBar.csprojResolveAssemblyReference.cache
+C:\Users\Generation\source\repos\CharacterQuestMenu\StatBar\obj\Debug\CharacterQuestMenu.StatBar.resources
+C:\Users\Generation\source\repos\CharacterQuestMenu\StatBar\obj\Debug\StatBar.csproj.GenerateResource.Cache
+C:\Users\Generation\source\repos\CharacterQuestMenu\StatBar\obj\Debug\StatBar.csproj.CoreCompileInputs.cache
+C:\Users\Generation\source\repos\CharacterQuestMenu\StatBar\obj\Debug\StatBar.dll
+C:\Users\Generation\source\repos\CharacterQuestMenu\StatBar\obj\Debug\StatBar.pdb
+C:\Users\Generation\source\repos\CharacterQuestMenu\StatBar\obj\Debug\StatBar.MemberBox.resources
+C:\Users\Generation\source\repos\CharacterQuestMenu\StatBar\obj\Debug\StatBar.Properties.Resources.resources
