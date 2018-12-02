@@ -1,0 +1,50 @@
+//Level
+100
+//Tag
+Tis time to test what become of you after inheriting your legacy...
+//Race
+4
+//Difficulty
+2
+//Age
+250
+//Strength
+8
+//Resistence
+8
+//SKill
+9
+//Intelligence
+9
+//Tech
+65
+//Mage Tech
+85
+//Combat Arts
+90
+//weapon Arts
+90
+//Manna Training
+0
+//Manna Bonus
+0
+//Life Force Bonus
+0
+//Religion
+0
+//Demon
+false
+//Drifter
+false
+//Training
+Ciahian,Magian,Adept,Arbitar,Sorcery
+//Attribute
+false
+//Dark
+0
+//Light
+0
+//Evil
+0
+//Info
+The first apprentice to the Dark Lord who fought in the celestials alongside his rival Ace. He was instrumental in preserving the Light Masamune and training Chris and Neo.

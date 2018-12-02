@@ -1,0 +1,52 @@
+//Level
+85
+//Tag
+All death is certain...
+//Race
+3
+//Difficulty
+2
+//Age
+150
+//Strength
+7
+//Resistence
+9
+//SKill
+6
+//Intelligence
+8
+//Tech
+55
+//Mage Tech
+85
+//Combat Arts
+50
+//weapon Arts
+70
+//Manna Training
+0
+//Manna Bonus
+0
+//Life Force Bonus
+0
+//Religion
+2
+//Demon
+false
+//Drifter
+false
+//Training
+Magian,Ghosting,Sorcery,Transcendence
+//Attribute
+true
+//Dark
+85
+//Light
+0
+//Evil
+0
+//Covenants
+Death
+//info
+Heir to the old reverence of Necria and esteemed scholar of the Dark Lord. He trained alongside the fathers in the ways of the Dark

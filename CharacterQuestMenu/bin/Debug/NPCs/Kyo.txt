@@ -1,0 +1,51 @@
+//Level
+100
+//Tag
+Chriso sucks! He's mean!
+//Race
+7
+//Difficulty
+11
+//Age
+100
+//Strength
+10
+//Resistence
+10
+//SKill
+10
+//Intelligence
+10
+//Tech
+100
+//Mage Tech
+100
+//Combat Arts
+100
+//weapon Arts
+100
+//Manna Training
+0
+//Manna Bonus
+0
+//Life Force Bonus
+0
+//Religion
+0
+//Demon
+false
+//Drifter
+true
+//Training
+Ciahian,Magian,Adept,Transcendence,Halfbreed,Alchemy,Sorcery,Ghosting,Demonic
+//Attribute
+true
+//Dark
+100
+//Light
+100
+//Evil
+100
+//Info
+???
+

@@ -1,0 +1,51 @@
+//Level
+75
+//Tag
+Genesis style has no equals
+//Race
+5
+//Difficulty
+1
+//Age
+35
+//Strength
+7
+//Resistence
+7
+//SKill
+10
+//Intelligence
+7
+//Tech
+35
+//Mage Tech
+75
+//Combat Arts
+100
+//weapon Arts
+55
+//Manna Training
+0
+//Manna Bonus
+0
+//Life Force Bonus
+0
+//Religion
+0
+//Demon
+false
+//Drifter
+false
+//Training
+Adept,Ciahian
+//Attribute
+true
+//Dark
+40
+//Light
+0
+//Evil
+0
+//Info
+Ally and childhood rival to Matthew, the son of Chris. He a prodigy who has single handed made his clan contenders in the Adept meritocracy.
+

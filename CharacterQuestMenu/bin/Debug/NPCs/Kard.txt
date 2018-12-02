@@ -1,0 +1,50 @@
+//Level
+60
+//Tag
+That terrible battle manners
+//Race
+4
+//Difficulty
+2
+//Age
+75
+//Strength
+6
+//Resistence
+6
+//SKill
+9
+//Intelligence
+8
+//Tech
+60
+//Mage Tech
+70
+//Combat Arts
+65
+//weapon Arts
+70
+//Manna Training
+0
+//Manna Bonus
+0
+//Life Force Bonus
+0
+//Religion
+0
+//Demon
+true
+//Drifter
+false
+//Training
+Arbitan,Ciahian,Half-breed
+//Attribute
+false
+//Dark
+0
+//Light
+0
+//Evil
+0
+//Info
+A reformed vampire who now caretakes those of his ilk and drives them away from their demonic instincts with his life.

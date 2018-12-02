@@ -1,0 +1,51 @@
+//Level
+1
+//Tag
+Anywhere can be paradise, as long as you try to live. 
+//Race
+7
+//Difficulty
+5
+//Age
+0
+//Strength
+1
+//Resistence
+10
+//SKill
+1
+//Intelligence
+5
+//Tech
+0
+//Mage Tech
+100
+//Combat Arts
+0
+//weapon Arts
+0
+//Manna Training
+0
+//Manna Bonus
+0
+//Life Force Bonus
+0
+//Religion
+0
+//Demon
+false
+//Drifter
+false
+//Training
+
+//Attribute
+false
+//Dark
+0
+//Light
+0
+//Evil
+0
+//Info
+A goddess who lived through the celestial wars and sister to Rose. She aided the fathers by releasing the Dark Lords power at the cost of her life.
+

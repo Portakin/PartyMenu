@@ -1,0 +1,51 @@
+//Level
+95
+//Tag
+...find the moments between seconds...that's where you place the kill.
+//Race
+2
+//Difficulty
+2
+//Age
+110
+//Strength
+6
+//Resistence
+9
+//SKill
+8
+//Intelligence
+10
+//Tech
+80
+//Mage Tech
+100
+//Combat Arts
+70
+//weapon Arts
+80
+//Manna Training
+0
+//Manna Bonus
+0
+//Life Force Bonus
+0
+//Religion
+0
+//Demon
+false
+//Drifter
+false
+//Training
+Magian,Ciahian,Adept,Alchemy,Sorcery,Ghosting,Demonic
+//Attribute
+false
+//Dark
+0
+//Light
+0
+//Evil
+0
+//Info
+The lost heir to the magian throne and old comrade to Chris who was once his captain.
+

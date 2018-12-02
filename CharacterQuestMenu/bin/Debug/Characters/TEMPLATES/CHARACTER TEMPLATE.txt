@@ -1,0 +1,51 @@
+//Level
+
+//Tag
+
+//Race
+
+//Difficulty
+
+//Age
+
+//Strength
+
+//Resistence
+
+//SKill
+
+//Intelligence
+
+//Tech
+
+//Mage Tech
+
+//Combat Arts
+
+//weapon Arts
+
+//Manna Training
+
+//Manna Bonus
+
+//Life Force Bonus
+
+//Religion
+
+//Demon
+
+//Drifter
+
+//Training
+
+//Attribute
+
+//Dark
+
+//Light
+
+//Evil
+
+//Info
+
+

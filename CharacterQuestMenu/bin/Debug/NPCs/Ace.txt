@@ -1,0 +1,51 @@
+//Level
+100
+//Tag
+Did you think you'd won?
+//Race
+1
+//Difficulty
+2
+//Age
+250
+//Strength
+9
+//Resistence
+7
+//SKill
+9
+//Intelligence
+8
+//Tech
+60
+//Mage Tech
+90
+//Combat Arts
+100
+//weapon Arts
+80
+//Manna Training
+0
+//Manna Bonus
+0
+//Life Force Bonus
+0
+//Religion
+0
+//Demon
+false
+//Drifter
+false
+//Training
+Ciahian,Magian
+//Attribute
+true
+//Dark
+0
+//Light
+0
+//Evil
+100
+//Info
+Apprentice of the Dark Lord and rival to Sync. He was instrumental in envoking Deaden's second coming as of the few masters of the Evil attribute
+

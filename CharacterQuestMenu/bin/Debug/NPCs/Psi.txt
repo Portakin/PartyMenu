@@ -1,0 +1,51 @@
+//Level
+90
+//Tag
+The will of Cacealeos must be done.
+//Race
+2
+//Difficulty
+2
+//Age
+350
+//Strength
+6
+//Resistence
+9
+//SKill
+7
+//Intelligence
+10
+//Tech
+70
+//Mage Tech
+100
+//Combat Arts
+65
+//weapon Arts
+65
+//Manna Training
+0
+//Manna Bonus
+0
+//Life Force Bonus
+0
+//Religion
+0
+//Demon
+false
+//Drifter
+false
+//Training
+Magian,Adept,Alchemy,Sorcery
+//Attribute
+false
+//Dark
+0
+//Light
+0
+//Evil
+0
+//Info
+The mage general from the celestial wars and guardian to lady Daisy alongside Mathew. He and his commrade Ark haved the magian royal for hundreds of years and were appretices to the legendary BlueHawk
+
