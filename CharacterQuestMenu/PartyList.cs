@@ -154,7 +154,7 @@ namespace CharacterQuestMenu
 
         private void PartyScrollList_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == (char)Keys.Return)
+            if (e.KeyChar == (char)Keys.Return && PartyScrollList.SelectedItems.Count == 1)
                 SelectParty.PerformClick();
         }
     }

@@ -99,15 +99,19 @@ namespace CharacterQuestMenu
                 int x = 0;// gets increased for every player (Non-NPC)
                 int y = 0;// gets increased for every character
                 int lv = 0;// For average level of party
+                int AGE = 0;
                 int diff = 0;
                 foreach (Character c in QuestParty)
                 {
                     if (c.NPC == false)
                     {
+                        //foreach (int i in P.get_MemberStats(y)) //debugging
+                            //CombatLog.Text += i.ToString() + " ";
                         members[x].buildCurrentMember(c, P.get_MemberStats(y), P.get_MemberLife(y));
                         playerNumber++;
                         lv += c.Level;
                         diff += c.Difficulty;
+                        AGE += c.Age;
                         x++;
                     }
                     else//Grabs NPCs from party binary using special overloaded "Add_Tab" function
@@ -117,7 +121,7 @@ namespace CharacterQuestMenu
                 
                 updateBoxes();      //populates selection items
                 Average.Text += " " + (lv / QuestParty.Count()).ToString();
-                Difficulty.Text += " " + diff.ToString();
+                Difficulty.Text += " " + (diff + (AGE/x )/100).ToString();
                 //battle = P.inBattle;
                 Turn_Count = P.turnCount;
                 Day_Count = P.dayCount;
@@ -130,6 +134,7 @@ namespace CharacterQuestMenu
                 int x = 0;
                 int lv = 0;
                 int diff = 0;
+                int AGE = 0;
 
                 //returns party by constructing from this form
                 foreach (Character c in QuestParty)
@@ -140,6 +145,7 @@ namespace CharacterQuestMenu
                         TargetBox.Items.Add(c.Name);
                         PointBox.Items.Add(c.Name);
                         RearBox.Items.Add(c.Name);
+                        AGE += c.Age;
                         playerNumber++;
                         x++;
                     }
@@ -152,7 +158,7 @@ namespace CharacterQuestMenu
                 }//END FOREACH
                 
                 Average.Text += " " + (lv / QuestParty.Count()).ToString();
-                Difficulty.Text += " " + diff.ToString();
+                Difficulty.Text += " " + (diff + (AGE / x) / 100).ToString();
             }   //transfered from party creation                      
                 //End of memberbox construction
 
@@ -544,14 +550,14 @@ namespace CharacterQuestMenu
                     {
                         MemberBox NPC = (MemberBox)NPC_TabControl.TabPages[y].Controls[0];
                         //Reserves = NPC.get_energyStatus();
-                        P.Save_Party(NPC.get_energyStatus(), NPC.get_healthStatus());
+                        P.Save_Party_member(NPC.get_energyStatus(), NPC.get_healthStatus());
                         y++;    //cycle through NPC tabs
                     }
                 }
                 else
                 {
                     //Reserves = members[x].get_energyStatus();
-                    P.Save_Party(members[x].get_energyStatus(), members[x].get_healthStatus());
+                    P.Save_Party_member(members[x].get_energyStatus(), members[x].get_healthStatus());
                     x++;     //cycle through party members
                 }
             }

@@ -209,10 +209,10 @@ namespace CharacterQuestMenu
                     this.Tech = 0;
                     this.MageTech = 50;
 
-                    this.bodyEnergy = 100;
-                    this.mentalEnergy = 100;
-                    this.spiritualEnergy = 100;
-                    this.memoryEnergy = 100;
+                    this.bodyEnergy = Level*2;
+                    this.mentalEnergy = Level * 2;
+                    this.spiritualEnergy = Level * 2;
+                    this.memoryEnergy = Level * 2;
                     this.soulEnergy = 0;
                     this.mannaTraining = 100;
 

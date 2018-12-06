@@ -16,7 +16,7 @@ namespace CharacterQuestMenu
         //Timer T = new Timer();
         string Label;// text stating what the level of the stat is
         int CurrentBarValue;//bar won't necessarly fill completely
-        public int MAXIMUM_VALUE = 100; 
+        public int MAXIMUM_VALUE { get; set; } = 100; 
 
         public StatBar()
         {

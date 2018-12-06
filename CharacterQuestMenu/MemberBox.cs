@@ -107,7 +107,7 @@ namespace CharacterQuestMenu
             // health is con x 10 + 100 + level + a bonus up to 50%
             HealthBar.MAXIMUM_VALUE = (int)((host.Level + host.Constitution * 10 + 100) * (double)(1 + host.LifeBonus / 100));
             manna = i[3];
-            // manna max is level + 100 + training + bonus up to 50%
+            // manna max is level + 100 + training + a bonus up to 50%
             MannaBar.MAXIMUM_VALUE = (int)((100 + host.mannaTraining + host.Level) * (double)(1 + host.mannaBonus / 100));
             spirit = i[1];
             soul = i[2];
@@ -1587,7 +1587,7 @@ namespace CharacterQuestMenu
 
         private void MemberBox_MouseHover(object sender, EventArgs e)
         {
-            Display_Text = health.ToString() + spirit.ToString() + manna.ToString();
+            return;//Display_Text = health.ToString() + spirit.ToString() + manna.ToString();
         }
 
         private void EtherBurnBox_CheckedChanged(object sender, EventArgs e)

@@ -439,7 +439,7 @@ namespace CharacterQuestMenu
         
         private void Finish_Click(object sender, EventArgs e)
         {
-            if (!NewCharacter.StatRoll || !(NewCharacter.mannaBonus > 0) || !(NewCharacter.Race > 0) || String.IsNullOrEmpty(NameDisplay.Text) || String.IsNullOrWhiteSpace(NameDisplay.Text))
+            if (!NewCharacter.StatRoll || !(NewCharacter.Race > 0) || String.IsNullOrEmpty(NameDisplay.Text) || String.IsNullOrWhiteSpace(NameDisplay.Text))
                 MessageBox.Show("Please select Race, add Manna Roll, add Stat Roll, and create a name before finalization.");
             else if(ViewerMode)
             {                
@@ -712,7 +712,7 @@ namespace CharacterQuestMenu
             if (NewCharacter.Race == 7)
                 Age = 0;
             else
-                Age = 30;
+                Age = 20;
             NewCharacter.Age = Age;
             NewCharacter.Training.Clear();
             raceSelect = true;//prevent any of the following events from running
@@ -731,7 +731,8 @@ namespace CharacterQuestMenu
 
         private void update_Charts()
         {
-            ResetLabels();          
+            ResetLabels();
+            NewCharacter.Level = Convert.ToInt32(LevelValue.Text);
             StatChart.Series.Clear();
             SkillChart.Series.Clear();
             EnergyChart.Series.Clear();
@@ -936,7 +937,7 @@ namespace CharacterQuestMenu
             this.Description.Text = "Ciahian Training -" +
                 "\r\nThe main tools of ciaha include their weapon disciplines, their rare craftsmenship, and their use of body energy tempered by their large stature." +
                 "\r\nCiahian Training adds: " +
-                "\r\n\r\n+1 strenght" +
+                "\r\n\r\n+1 Constitution" +
                 "\r\n\r\n+15 weapon skill" +
                 "\r\n\r\n+15 body energy" +
                 "\r\n\r\n+1 rare weapon or style" +

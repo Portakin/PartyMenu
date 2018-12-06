@@ -488,7 +488,7 @@ namespace CharacterQuestMenu
             L[10].Text = M.memoryEnergy.ToString() + "/100";
 
             L[11].Visible = true;
-            L[11].Text = "Manna:";
+            L[11].Text = "Manna Training:";
             L[12].Visible = true;
             L[12].Text = M.mannaTraining.ToString() + "/100";
             
@@ -572,7 +572,7 @@ namespace CharacterQuestMenu
             L[10].Visible = true;
 
             L[11].Visible = true;
-            L[11].Text = "Manna:";
+            L[11].Text = "Manna Training:";
             L[12].Visible = true;
             L[12].Text = M.mannaTraining.ToString() + "/100";
 
@@ -672,6 +672,7 @@ namespace CharacterQuestMenu
 
             int difficulty_total = 0;
             int levelAve = 0;
+            int AgeAve = 0;
             int i = 0;
 
             //clear race compostion boxes before testing again.
@@ -733,10 +734,11 @@ namespace CharacterQuestMenu
                 if (c.Demon == true)
                     BreedRaceCheck.Checked = true;
 
+                AgeAve = c.Age;
                 difficulty_total += c.Difficulty;
                 //add difficulty is age is greater than average limit for party size
-                if (c.Age > 80 + Party.Count() * 20)
-                    difficulty_total++;
+                //if (c.Age > 80 + Party.Count() * 20)
+                  //  difficulty_total++;
             }//END FOR EACH
 
             int[] maximsStats = { maxStrength, maxSkill, maxResistence, maxIntelligence };
@@ -748,14 +750,14 @@ namespace CharacterQuestMenu
             Skill_Range.Series["Series1"].Points.DataBindXY(skillLabel, maximsSkill);
 
             if (i > 0)
-                update_Difficulty(difficulty_total, levelAve / i, i);
+                update_Difficulty(difficulty_total, levelAve / i, AgeAve/ Party.Count());
             else
-                update_Difficulty(difficulty_total, levelAve, i);
+                update_Difficulty(difficulty_total, levelAve, AgeAve/ Party.Count());
         }    
         
-        private void update_Difficulty(int total, int ave, int size)
+        private void update_Difficulty(int total, int ave, int AgeT)
         {
-            DifficultyDisplay.Text = total.ToString();           
+            DifficultyDisplay.Text = (total+AgeT/100).ToString();           
 
             if(total < 6)
             {
@@ -772,7 +774,7 @@ namespace CharacterQuestMenu
                 DifficultyDisplay.Text = total.ToString();
                 PartyRatingDisplay.Text = "Rating Game Master - Be intimately familiar with Generation in all its aspects to find the perfect solutions. There will not be many methods to win. Experts and Hardcores only; you've been warned.";
             }
-            PartyRatingDisplay.Text += "\r\n\r\nParty Level Average: " + ave.ToString() + "\r\nParty Size: " + size.ToString();
+            PartyRatingDisplay.Text += "\r\n\r\nParty Level Average: " + ave.ToString() + "\r\nParty Size: " + Party.Count().ToString();
         }
 
         private void Make_party_Click(object sender, EventArgs e)
@@ -826,5 +828,17 @@ namespace CharacterQuestMenu
                 }//END ELSE                     
                 }//END ELSE
             }//END FUNCTION            
+
+        private void CharacterView_List_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Return && CharacterView_List.SelectedItems.Count == 1)
+                Add_Character.PerformClick();
+        }
+
+        private void PartyNameField_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Return)
+                Make_party.PerformClick();
+        }
     }
 }

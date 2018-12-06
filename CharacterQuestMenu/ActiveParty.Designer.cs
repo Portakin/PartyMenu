@@ -225,6 +225,7 @@
             // 
             // EffectsBox
             // 
+            this.EffectsBox.Enabled = false;
             this.EffectsBox.FormattingEnabled = true;
             this.EffectsBox.Items.AddRange(new object[] {
             "Revive",

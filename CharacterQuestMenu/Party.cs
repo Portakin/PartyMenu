@@ -109,19 +109,15 @@ namespace CharacterQuestMenu
             return NPCS;
         }
 
-        public void Save_Party(int[] status, bool a)
+        public void Save_Party_member(int[] status, bool a)
         {
-            foreach (int i in status)
-            {
-                healthStatus.Add(status[0]);
-                spiritStatus.Add(status[1]);
-                soulStatus.Add(status[2]);
-                mannaReserves.Add(status[3]);
-                energyStatus.Add(status[4]);
-                powerstate.Add(status[5]);
-                alive.Add(a);
-            }
-
+            healthStatus.Add(status[0]);
+            spiritStatus.Add(status[1]);
+            soulStatus.Add(status[2]);
+            mannaReserves.Add(status[3]);
+            energyStatus.Add(status[4]);
+            powerstate.Add(status[5]);
+            alive.Add(a);
         }
 
     }
